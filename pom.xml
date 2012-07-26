@@ -56,6 +56,9 @@
 									<message>Only Java versions ${version.jdk}+ are supported.</message>
 									<version>[${version.jdk},)</version>
 								</requireJavaVersion>
+								<noSnapshots>
+									<message>Snapshot dependencies are not allowed!</message>
+								</noSnapshots>
 							</rules>
 						</configuration>
 					</execution>
